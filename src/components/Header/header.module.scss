@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+
+.header {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    h1 {
+        font-size: $font-3xl;
+        line-height: $line-3xl;
+        font-weight: 400;
+    }
+    span {
+        font-size: $font-3xl;
+        line-height: $line-3xl;
+    }
+    .pencilSimple, .check {
+        font-size: $font-lg;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .pencilSimple {
+        margin-left: 1rem;
+    }
+    .editName {
+        input {
+            font-size: $font-2xl;
+            line-height: $line-2xl;
+            margin-right: 1rem;
+            border: unset;
+            background-color: unset;
+            color: $gray-0;
+            background-color: $gray-6;
+            &:focus {
+                outline: unset;
+                background-color: $gray-7;
+            }
+        }
+    }
+    .hiden {
+        display: none;
+    }
+}
