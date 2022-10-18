@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+.container {
+    div {
+        margin: 2rem;
+        width: 10rem;
+        height: 10rem;
+        background-color: $blue-3;
+        border-radius: $radious-base;
+        padding: 1rem;
+    }
+}
